@@ -392,7 +392,7 @@ Threads
 
 - ThreadMapPort : Universal plug-and-play startup/shutdown
 
-- ThreadSocketHandler : Sends/Receives data from peers on port 9990.
+- ThreadSocketHandler : Sends/Receives data from peers on port 9901.
 
 - ThreadOpenAddedConnections : Opens network connections to added nodes.
 

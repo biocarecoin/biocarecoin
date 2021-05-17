@@ -105,7 +105,7 @@ public:
         pchMessageStart[1] = 0xc1;
         pchMessageStart[2] = 0xb8;
         pchMessageStart[3] = 0xd0;
-        nDefaultPort = 9990;
+        nDefaultPort = 9901;
         nPruneAfterHeight = 100000;
         m_assumed_blockchain_size = 22;
         m_assumed_chain_state_size = 3;
@@ -120,10 +120,8 @@ public:
         // This is fine at runtime as we'll fall back to using them as a oneshot if they don't support the
         // service bits we want, but we should get them updated to support all service bits wanted by any
         // release ASAP to avoid it where possible.
-        //vSeeds.emplace_back("seed-a.biocarecoin.loshan.co.uk");
-        //vSeeds.emplace_back("dnsseed.thrasher.io");
-        //vSeeds.emplace_back("dnsseed.biocarecointools.com");
-        //vSeeds.emplace_back("dnsseed.biocarecoinpool.org");
+        vSeeds.emplace_back("104.248.12.86");
+        vSeeds.emplace_back("45.55.63.46");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,25);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,185);
