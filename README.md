@@ -3,7 +3,7 @@ Biocarecoin Core integration/staging tree
 
 [![Build Status](https://travis-ci.org/biocarecoin-project/biocarecoin.svg?branch=master)](https://travis-ci.org/biocarecoin-project/biocarecoin)
 
-https://biocarecoin.org
+https://biocarecoin.com
 
 What is Biocarecoin?
 ----------------
